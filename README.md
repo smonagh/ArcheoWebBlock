@@ -1,12 +1,12 @@
-#ArcheoWebBlock
+# ArcheoWebBlock
 
-##About
+## About
 ArcheoWebBlock is a small utility I build for myself that blocks websites natively using
 /etc/hosts on linux distributions. It depends on two files being created:
 1. permanent.txt 2. temporary.txt. And the use of crontab to configure the 
 hours under which the temporary list will be restricted.
 
-##Installation
+## Installation
 The program can be installed using the configure file. Root privileges
 are required for running. You usually should create the permanent.txt before
 running, however, these can be added later by running the command
@@ -34,5 +34,5 @@ This will cause the website to be unreachable. Alternatively, if you want to
 redirect to another site then add that site's IP address rather than the local
 host.
 
-# Contact
+## Contact
 steven@archeostyle.com
