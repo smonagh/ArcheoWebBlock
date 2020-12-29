@@ -1,0 +1,6 @@
+#!/bin/sh
+
+mkdir /opt/ArcheoWebBlock
+cp * /opt/ArcheoWebBlock
+cd /opt/ArcheoWebBlock
+cat permanent.txt >> /etc/hosts
