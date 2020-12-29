@@ -1,7 +1,7 @@
 # ArcheoWebBlock
 
 ## About
-ArcheoWebBlock is a small utility I build for myself that blocks websites natively using
+ArcheoWebBlock is a small utility I built for myself that blocks websites natively using
 /etc/hosts on linux distributions. It depends on two files being created:
 1. permanent.txt 2. temporary.txt. And the use of crontab to configure the 
 hours under which the temporary list will be restricted.
